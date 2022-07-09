@@ -22,6 +22,8 @@ This can be used not only for money but also for teachers acceptance by students
 
 # Example
 
+You can see the same example in Google Sheets here: [Schedules | Example tables](https://docs.google.com/spreadsheets/d/1sreTuAUG9ZhNeeUrbaPRySFlNXCtdgsaaKbC9FoxGHU/edit?usp=sharing)
+
 ### Student's needs
 | student | subject 1 | subject 2 | subject 3 | subject 4 |
 |---------|-----------|-----------|-----------|-----------|
