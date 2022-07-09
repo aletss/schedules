@@ -2,7 +2,7 @@
 
 This project is the first attempt to solve a common problem on any organization that wants to *optimize* the schedule between teachers and students taking into account 
 1. Teacher's availability and knowledge (subjects that can teach)
-2. Student's needs (subjects that need to enroll)
+2. Students' needs (subjects that need to enroll)
 3. Classrooms availability (hours and capacity)
 
 based on the profit defined as
@@ -17,14 +17,14 @@ This can be used not only for money but also for teachers acceptance by students
 
 ### Assumptions
 1. All students take the schedule purposed.
-2. Quality on every teacher is the same, so student's preferences don't apply.
+2. Quality on every teacher is the same, so students' preferences don't apply.
 
 
 # Example
 
 You can see the same example in Google Sheets here: [Schedules | Example tables](https://docs.google.com/spreadsheets/d/1sreTuAUG9ZhNeeUrbaPRySFlNXCtdgsaaKbC9FoxGHU/edit?usp=sharing)
 
-### Student's needs
+### Students' needs
 | student | subject 1 | subject 2 | subject 3 | subject 4 |
 |---------|-----------|-----------|-----------|-----------|
 | 1       | x         |           | x         |           |
@@ -36,7 +36,7 @@ Where:
 * student 2 need to find a course for subject 1 and subject 3
 * student 3 needs to find a course for subject 1, subject 2 and subject 3
 
-### Teacher's knowledge
+### Teachers' knowledge
 | teacher | subject 1 | subject 2 | subject 3 | subject 4 |
 |---------|-----------|-----------|-----------|-----------|
 | 1       | x         | x         | x         | x         |
@@ -70,7 +70,7 @@ Where:
 | 3       | 1       | 4    | 2      |
 | 4       | 1       | 6    | 3      |
 
-Income means the payment per student. That also is usefull to measure student's happines in case the preference for some teachers is known.
+Income means the payment per student. That also is usefull to measure students' happiness in case the preference for some teachers is known.
 
 ### Classroom availability (weekly)
 | classroom | cost | capacity | h2 | h3 | h4 | h5 | h6 | h7 | h8 |
@@ -84,7 +84,7 @@ Where:
 * classroom 2 can be used on hours 2,3,4,5,7,8 by a single teacher for a single subject and has capacity for 15 persons
 * classroom 3 can be used on hours 1,2,4,5 by a single teacher for a single subject and has capacity for 12 persons
 
-### Teacher's availability
+### Teachers' availability
 | teacher | schedule | h1 | h2 | h3 | h4 | h5 | h6 | h7 | h8 |
 |---------|----------|----|----|----| ---|----|----|----|----|
 | 1       | 1        |    | x  | x  | x  | x  | x  | x  | x  |
@@ -109,14 +109,14 @@ Where:
 
 # TO DO: 
 
-## Teacher's restrictions
+## Teachers' restrictions
 * Classrooms: For infraestructure a teacher may not be able to use some specific classrooms.  
 * Capacity: A teacher will only accept a limited amount of students.  
 
-## Student's restrictions
+## Students' restrictions
 * Classrooms: For infraestructure a student may not be able to use some specific classrooms.  
-* Schedule: Studen't availability taking into account.  
+* Schedule: Student availability taking into account.  
 * Preference: Students with 100% credits can have preference over students with 90% credits and create an impact in the final schedule purposed. This would affect the main metric.  
 
-## Subject's restrictions
+## Subjects' restrictions
 * Preference: Some subjects could be more "important" than others, so that can impact the final schedule purposed. This would affect the main metric.  
