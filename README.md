@@ -92,7 +92,7 @@ Where:
 | 2       | 2        |    |    |    |    |    | x  | x  | x  |
 | 3       | 1        | x  | x  |    | x  | x  |    | x  |    |
 
-Teacher's can give multiple options for his own schedule. Example Teacher 2 can give 2 hours in the morning or 2 hours at night but 2 in the morning and 2 in the night.
+Teacher's can give multiple options for their own schedule. Example Teacher 2 can give 2 hours in the morning or 2 hours at night but 2 in the morning and 2 in the night.
 
 Where:
 * teacher 1, on schedule 1 can give class on hours 2,3,4,5,6,7,8 for a single subject
