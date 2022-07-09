@@ -110,13 +110,13 @@ Where:
 # TO DO: 
 
 ## Teacher's restrictions
-Classrooms: For infraestructure a teacher may not be able to use some specific classrooms.  
-Capacity: A teacher will only accept a limit amount of students.  
+* Classrooms: For infraestructure a teacher may not be able to use some specific classrooms.  
+* Capacity: A teacher will only accept a limit amount of students.  
 
 ## Student's restrictions
-Classrooms: For infraestructure a student may not be able to use some specific classrooms.  
-Schedule: Studen't availability taking into account.  
-Preference: Students with 100% credits can have preference over students with 90% credits and create an impact in the final schedule purposed. This would affect the main metric.  
+* Classrooms: For infraestructure a student may not be able to use some specific classrooms.  
+* Schedule: Studen't availability taking into account.  
+* Preference: Students with 100% credits can have preference over students with 90% credits and create an impact in the final schedule purposed. This would affect the main metric.  
 
 ## Subject's restrictions
-Preference: Some subjects could be more "important" than others, so that can impact the final schedule purposed. This would affect the main metric.  
+* Preference: Some subjects could be more "important" than others, so that can impact the final schedule purposed. This would affect the main metric.  
