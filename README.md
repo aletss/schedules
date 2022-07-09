@@ -111,7 +111,7 @@ Where:
 
 ## Teacher's restrictions
 * Classrooms: For infraestructure a teacher may not be able to use some specific classrooms.  
-* Capacity: A teacher will only accept a limit amount of students.  
+* Capacity: A teacher will only accept a limited amount of students.  
 
 ## Student's restrictions
 * Classrooms: For infraestructure a student may not be able to use some specific classrooms.  
