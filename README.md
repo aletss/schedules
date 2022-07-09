@@ -108,8 +108,6 @@ Where:
 * Column "cost" in "Classroom availability (weekly)" table is 0
 
 # TO DO: 
-## Students preference
-Example: students with 100% credits can have preference over students with 90% credits and create an impact in the final schedule purposed. This would affect the main metric.
 
 ## Teacher's restrictions
 Classrooms: For infraestructure a teacher may not be able to use some specific classrooms.
@@ -118,3 +116,4 @@ Capacity: A teacher will only accept a limit amount of students.
 ## Student's restrictions
 Classrooms: For infraestructure a student may not be able to use some specific classrooms.
 Schedule: Studen't availability taking into account.
+Preference: Students with 100% credits can have preference over students with 90% credits and create an impact in the final schedule purposed. This would affect the main metric.
