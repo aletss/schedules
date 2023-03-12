@@ -21,5 +21,5 @@ class Estudiante:
             self.calendario.agregar_bloques(horario.calendario.bloques)
             print(f"{self.nombre} ha inscrito el horario {horario.id} correctamente")
             resuesta = True
-        
+
         return respuesta

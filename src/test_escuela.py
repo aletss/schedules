@@ -35,7 +35,7 @@ materias = [
 
 # simular aulas
 aulas = []
-for i in range(n_aulas):    
+for i in range(n_aulas):
     aulas.append(
         Aula(id=i, nombre=f'aula {i}', calendario=Calendario())
     )

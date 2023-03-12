@@ -7,7 +7,7 @@ from datetime import datetime
 class BloqueDeTiempo:
     # 0-6 domingo a sabado
     dia: int
-    # número de periodo. Esto se puede interpretar como hora del dia, media hora del dia, 15 min, etc. 
+    # número de periodo. Esto se puede interpretar como hora del dia, media hora del dia, 15 min, etc.
     # Ejemplo 0-23 para 24 horas donde 0 representa de las 00:00 a las 01:00 hrs
     periodo: int
     # Titulo / descripcion de evento
@@ -18,7 +18,7 @@ class BloqueDeTiempo:
             raise TypeError("Valor para el atributo dia debe ser entero")
         if self.dia < 0 or self.dia >= config.DIAS:
             raise ValueError(f"Valor para el atributo dia debe estar entre {0} y {DIAS-1}")
-        
+
         if not isinstance(self.periodo, int):
             raise TypeError("Valor para el atributo periodo debe ser entero")
         if self.periodo < 0 or self.periodo >= config.PERIODOS:
